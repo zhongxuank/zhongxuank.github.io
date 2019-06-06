@@ -13,23 +13,61 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# 
+# Build settings
+markdown: kramdown
+remote_theme: nandomoreirame/end2end
+highlighter: pygments
+plugins: [jekyll-remote-theme, jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# SEO settings
 title: Hello, World.
-email: zhongxuan@u.yale-nus.edu.sg
 description: >- # this means to ignore newlines until "baseurl:"
         Welcome to my personal page.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: zhongxuank
-github_username:  zhongxuank
-repository: zhongxuank/zhongxuank.github.io
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
+repo: http://github.com/zhongxuank/zhongxuank.github.io
+disqus_shortname: "zhongxuank"
+disqus_site_shortname: "zhongxuank"
+
+# Author Settings
+author:
+  name: Zhong Xuan Khwa
+  job: Undergraduate Student
+  bio: "Finishing my BSc in Yale-NUS College Singapore, deeply interested in Natural Language Processing and Graph Theory."
+  thumb: /images/author.jpg
+  email: zxkhwa@hotmail.com
+  url: zhongxuank.github.io
+  github: https://github.com/zhongxuank
+  twitter: https://twitter.com/zhongxuank
+  facebook: https://facebook.com/zhongxuan
+  linkedin: https://linkedin.com/in/zhongxuan95
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+  - slug: blog
+    title: Blog
 
 # Exclude from processing.
+exclude: ["Gemfile", "Gemfile.lock"]
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
