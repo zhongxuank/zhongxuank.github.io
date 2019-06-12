@@ -20,7 +20,8 @@ sass:
 # SEO settings
 title: Hello, World.
 description: >- # this means to ignore newlines until "baseurl:"
-        Welcome to my personal page.
+        Personal webpage of Zhong Xuan Khwa, Undergraduate Student
+        at Yale-NUS College.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -32,8 +33,8 @@ disqus_site_shortname: "zhongxuank"
 # Author Settings
 author:
   name: Zhong Xuan Khwa
-  job: Undergraduate Student
-  bio: "Finishing my BSc in Yale-NUS College Singapore, deeply interested in Natural Language Processing and Graph Theory."
+  job: Undergraduate at Yale-NUS College, Singapore
+  bio: "Majoring in Mathematical, Computational and Statistical Sciences, with a particular interest in Graph Theory and Natural Language Processing."
   thumb: /images/author.jpg
   email: zxkhwa@hotmail.com
   url: zhongxuank.github.io
