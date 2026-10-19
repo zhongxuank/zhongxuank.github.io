@@ -1,0 +1,5 @@
+js/shader-bg.bundle.js is a build of:
+- "shaders" 4.0.4 by Shader Effects Inc. (MIT) https://github.com/shader-effects-inc/shaders
+  Only the FlowingGradient and FilmGrain effects are registered, and its optional performance telemetry
+  (which would POST to shaders.com) is replaced by a stub, so this site never contacts shaders.com.
+- "typegpu", "typed-binary", "tinyest", "tsover-runtime" (MIT)
