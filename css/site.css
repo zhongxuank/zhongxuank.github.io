@@ -72,3 +72,11 @@ footer.close.shader-host{background:linear-gradient(135deg,var(--foot),#35525a)}
 .hero-in .status{font-size:clamp(1.05rem,2vw,1.3rem);line-height:1.45;max-width:30rem;margin:0 0 1.5rem}
 .hero-in .status b{font-weight:600;letter-spacing:.02em;opacity:.85}
 .hero-in .roles span{white-space:nowrap}
+@media(max-width:55.99rem){
+  .hero h1{font-size:clamp(3.6rem,17vw,5rem);margin-bottom:.9rem}
+  .hero-in .roles{font-size:1.1rem;margin-bottom:.45rem}
+  .hero-in .status{font-size:.98rem;margin-bottom:.6rem}
+  .hero-in .status:last-of-type{margin-bottom:1rem}
+  .hero-in .roles span{display:inline}
+}
+@media(min-width:56rem){.hero h1{font-size:clamp(5.5rem,11vw,10rem)}}
