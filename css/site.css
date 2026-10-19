@@ -67,3 +67,4 @@ footer .fine{color:var(--foot-soft);font-size:.95rem;margin:0}
 .shader-on canvas{opacity:1}
 @media (prefers-reduced-motion:no-preference){.shader-host canvas{transition:opacity 1.2s ease}}
 footer.close.shader-host{background:linear-gradient(135deg,var(--foot),#35525a)}
+@media(max-width:55.99rem){.hero img{object-position:50% 40%}}

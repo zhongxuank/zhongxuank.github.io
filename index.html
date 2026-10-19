@@ -7,14 +7,18 @@
 <meta name="description" content="Zhong Xuan Khwa, product analyst in Singapore. Building AI projects and teaching West Coast Swing.">
 <meta name="color-scheme" content="light dark">
 <link rel="preload" href="/fonts/cormorant/cormorant-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="/images/xuan.webp" type="image/webp">
 <link rel="stylesheet" href="/css/site.css">
 <script type="module" src="/js/shader-bg.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <div class="hero">
-<picture><source srcset="/images/xuan.webp" type="image/webp"><img src="/images/xuan.jpg" alt="Xuan smiling, seated in front of a lake with forested hills behind" width="1100" height="733" fetchpriority="high"></picture>
+<picture>
+<source media="(max-width:55.99rem)" srcset="/images/xuan-phone.webp" type="image/webp">
+<source media="(max-width:55.99rem)" srcset="/images/xuan-phone.jpg">
+<source srcset="/images/xuan-2000.webp 2000w, /images/xuan-3200.webp 3200w" sizes="100vw" type="image/webp">
+<img src="/images/xuan-2000.jpg" srcset="/images/xuan-2000.jpg 2000w, /images/xuan-3200.jpg 3200w" sizes="100vw" alt="Xuan smiling, seated in front of a lake with forested hills behind" width="2000" height="1332" fetchpriority="high">
+</picture>
 <header class="site pad"><a class="mark" href="/">Zhong Xuan Khwa</a><nav aria-label="Main"><a href="/about">About</a><a href="/blog">Thoughts</a></nav></header>
 <main id="main" class="hero-in pad">
 <h1 class="display">Hi, I’m <span class="br"><em>Xuan.</em></span></h1>
