@@ -68,3 +68,7 @@ footer .fine{color:var(--foot-soft);font-size:.95rem;margin:0}
 @media (prefers-reduced-motion:no-preference){.shader-host canvas{transition:opacity 1.2s ease}}
 footer.close.shader-host{background:linear-gradient(135deg,var(--foot),#35525a)}
 @media(max-width:55.99rem){.hero img{object-position:50% 40%}}
+.hero-in .roles{font-size:clamp(1.3rem,2.6vw,1.75rem);font-weight:600;line-height:1.3;max-width:34rem;margin:0 0 .6rem}
+.hero-in .status{font-size:clamp(1.05rem,2vw,1.3rem);line-height:1.45;max-width:30rem;margin:0 0 1.5rem}
+.hero-in .status b{font-weight:600;letter-spacing:.02em;opacity:.85}
+.hero-in .roles span{white-space:nowrap}
