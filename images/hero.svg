@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600">
+<style>
+:root{--bg:#cbcbb6;--deep:#2f4a3d;--tan:#b4a265;--gold:#e0a350;--sage:#aeb59a;--rust:#a85b2b;--leaf:#2f4a3d;--stem:#26352d}
+@media(prefers-color-scheme:dark){:root{--bg:#1a211b;--deep:#8fb09a;--tan:#9a8b4a;--gold:#d3993f;--sage:#34413a;--rust:#c2703a;--leaf:#a9c4b0;--stem:#c8d4c0}}
+.a{stop-color:var(--deep)}.b{stop-color:var(--tan)}
+</style>
+<defs>
+<radialGradient id="ga" gradientUnits="userSpaceOnUse" cx="170" cy="600" r="18" spreadMethod="repeat"><stop offset="0" class="a"/><stop offset=".5" class="a"/><stop offset=".5" class="a" stop-opacity="0"/><stop offset="1" class="a" stop-opacity="0"/></radialGradient>
+<radialGradient id="gb" gradientUnits="userSpaceOnUse" cx="320" cy="600" r="16" spreadMethod="repeat"><stop offset="0" class="b"/><stop offset=".5" class="b"/><stop offset=".5" class="b" stop-opacity="0"/><stop offset="1" class="b" stop-opacity="0"/></radialGradient>
+<path id="lp" d="M0,0 C26,-18 30,-70 4,-110 C-14,-72 -24,-26 0,0z"/>
+<filter id="gr" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="1.2" numOctaves="2" seed="9" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .6 -.12" result="m"/><feComposite in="m" in2="SourceAlpha" operator="in" result="g"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="g"/></feMerge></filter>
+</defs>
+<g filter="url(#gr)">
+<circle cx="262" cy="100" r="92" fill="var(--gold)"/>
+<path d="M110,470 V330 a120,120 0 0 1 240,0 V470z" fill="var(--sage)"/>
+<circle cx="332" cy="292" r="42" fill="var(--rust)"/>
+</g>
+<circle cx="320" cy="600" r="166" fill="url(#gb)"/>
+<circle cx="170" cy="600" r="176" fill="var(--bg)"/>
+<circle cx="170" cy="600" r="176" fill="url(#ga)"/>
+<path d="M208,560 C196,470 240,400 222,310 S226,200 244,130" fill="none" stroke="var(--stem)" stroke-width="3" stroke-linecap="round"/>
+<g fill="var(--leaf)" filter="url(#gr)">
+<use href="#lp" transform="translate(208 480) rotate(-60) scale(.8)"/>
+<use href="#lp" transform="translate(222 424) rotate(62) scale(.82)"/>
+<use href="#lp" transform="translate(220 366) rotate(-56) scale(.78)"/>
+<use href="#lp" transform="translate(226 308) rotate(58) scale(.72)"/>
+<use href="#lp" transform="translate(222 250) rotate(-52) scale(.66)"/>
+<use href="#lp" transform="translate(232 198) rotate(54) scale(.58)"/>
+<use href="#lp" transform="translate(244 132) rotate(8) scale(.56)"/>
+</g>
+</svg>
